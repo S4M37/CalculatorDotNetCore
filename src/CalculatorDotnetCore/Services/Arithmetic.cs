@@ -21,8 +21,8 @@ namespace CalculatorDotnetCore.Services
         }
         public double divide(double a, double b)
         {
-            return 0;
-            //return a/b;
+            //return 0;
+            return a/b;
         }
     }
 }

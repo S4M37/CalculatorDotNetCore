@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies>
+  <assembly name="XUnitTest.dll" environment="64-bit .NET (unknown version) [collection-per-class, parallel (4 threads)]" test-framework="xUnit.net 2.2.0.3300" run-date="2017-01-18" run-time="03:17:59" total="4" passed="3" failed="1" skipped="0" time="0.416" errors="0">
+    <errors />
+    <collection total="4" passed="3" failed="1" skipped="0" name="Test collection for XUnitTest.ArithmeticTest" time="0.026">
+      <test name="XUnitTest.ArithmeticTest.AddTest" type="XUnitTest.ArithmeticTest" method="AddTest" time="0.0137387" result="Pass" />
+      <test name="XUnitTest.ArithmeticTest.DivideTest" type="XUnitTest.ArithmeticTest" method="DivideTest" time="0.0114023" result="Fail">
+        <failure exception-type="Xunit.Sdk.EqualException">
+          <message><![CDATA[Assert.Equal() Failure\r\nExpected: 1,5\r\nActual:   0]]></message>
+          <stack-trace><![CDATA[   at XUnitTest.ArithmeticTest.DivideTest() in C:\Users\S4M37\Documents\Visual Studio 2015\Projects\CalculatorDotnetCore\test\XUnitTest\ArithmeticTest.cs:line 47]]></stack-trace>
+        </failure>
+      </test>
+      <test name="XUnitTest.ArithmeticTest.MultiplicateTest" type="XUnitTest.ArithmeticTest" method="MultiplicateTest" time="0.0004466" result="Pass" />
+      <test name="XUnitTest.ArithmeticTest.SubtractTest" type="XUnitTest.ArithmeticTest" method="SubtractTest" time="0.0004805" result="Pass" />
+    </collection>
+  </assembly>
+</assemblies>
