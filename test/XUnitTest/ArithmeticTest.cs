@@ -25,7 +25,7 @@ namespace XUnitTest
         [Fact]
         public void MultiplicateTest()
         {
-            double expected = 1;
+            double expected = 12;
             double actual = op.multiplicate(4, 3);
 
             Assert.Equal(expected, actual);
@@ -33,7 +33,7 @@ namespace XUnitTest
         [Fact]
         public void SubtractTest()
         {
-            double expected = 7;
+            double expected = 1;
             double actual = op.subtract(4, 3);
 
             Assert.Equal(expected, actual);
