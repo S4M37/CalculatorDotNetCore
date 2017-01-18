@@ -9,23 +9,23 @@ namespace CalculatorDotnetCore.Services
     {
         public double add(double a, double b)
         {
-            return 0;
-            //return a +b;
+            //return 0;
+            return a +b;
         }
         public double multiplicate(double a, double b)
         {
-            return 0;
-            //return a *b;
+            //return 0;
+            return a *b;
         }
         public double subtract(double a, double b)
         { 
-            return 0;
-            //return a-b;
+            //return 0;
+            return a-b;
         }
         public double divide(double a, double b)
         {
-            return 0;
-            //return a/b;
+            //return 0;
+            return a/b;
         }
     }
 }
